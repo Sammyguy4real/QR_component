@@ -12,29 +12,33 @@ body {
     flex-direction: column;
     background-color: white;
     padding: 10px;
-    max-width: 100%;
-    max-height: 200%;
     border: none;
     border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .qr_box {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
-    size: 10px;
+    background-color: rgb(49,125,241); 
+    size-adjust:  0px;
+    border-radius: 10px;
 }
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-family: Arial;
     font-size: large;
-    font-style:oblique;
-    text-align: justify;
-    font: 100%;
+    text-align:justify, center;
 }
 
 p {
+    padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    text-align: justify;
+    text-align: center, justify;
 }
