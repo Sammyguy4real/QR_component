@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(213,225,239,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 200%;
+    border: none;
+    border-radius: 10px;
+}
+
+.qr_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    size: 10px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style:oblique;
+    text-align: justify;
+    font: 100%;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: justify;
+}
